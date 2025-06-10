@@ -1,1 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #222; /* Fundo escuro */
+    color: #eee; /* Texto claro */
+    font-family: Arial, sans-serif;
+}
 
+canvas {
+    background-color: #000; /* Fundo do canvas preto */
+    border: 2px solid #eee; /* Borda branca para o canvas */
+}
